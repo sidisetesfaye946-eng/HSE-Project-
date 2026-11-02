@@ -1,0 +1,9 @@
+- [ ] Remove the subtitle "Reporting for your assigned projects only" from `site-officer/dashboard.blade.php`.
+- [ ] Hide the "Assignment Flow Overview" chart and details in `partials/material-dashboard-report.blade.php` specifically for HSE Site Officer.
+- [ ] Remove the sidebar link for "Manage Employees" in `layouts/app.blade.php` for the HSE Site Officer role.
+- [ ] Implement role abort checks in `SiteOfficerProjectEmployeeController.php` to prevent access by HSE Site Officers.
+- [ ] Remove the header text "My Project Material balance report for assigned projects" from `site-officer/projects/index.blade.php`.
+- [ ] Remove the header text "Request Material Submit a material request for HSE Officer approval" from `site-officer/material-requests/create.blade.php`.
+- [ ] Remove the `required` attribute from the spreadsheet file input in `site-officer/material-requests/create.blade.php`.
+- [ ] Run PHP Pint formatter to clean up formatting.
+- [ ] Run existing tests and add a test case to cover optional file upload on the import route.
